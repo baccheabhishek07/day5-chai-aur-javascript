@@ -1,0 +1,31 @@
+FUNCTIONS IN JAVSCRIPT
+1.BASIC FUNCTIONS
+FOR AN EXAMPLE
+
+
+   (keyword)   (name of function)     (declaration or parmeter)
+     |               |                      |
+ function     addTwoNumbers         (number1,number2){-----scope 
+    console.log(number1 + number2)-------operation 
+ }----scope
+               |-----------(arguments)
+addTwoNumbers(2,3)
+      |
+(calling of function)
+
+
+2.ARROW FUNCTIONS
+
+NOTE : this method in browser refer as window or global .|--------- (interview point,
+       this methode in node enviorment refer as empty.   |------------         of view question)
+
+
+
+(declaration)              (arrow function)
+  |                              |
+const addTwo     = (parmeter)    =>   {
+   console.log()
+}
+console.log(())
+
+
